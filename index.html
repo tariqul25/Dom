@@ -29,93 +29,9 @@
                 <li>bonobash</li>
             </ul>
         </section>
-        <section>
-            <h1 id="places-title">places i visit</h1>
-            <ul id="places-list">
-                <li>moulvibazar</li>
-                <li>dhaka</li>
-                <li>habiganj</li>
-            </ul>
-        </section>
-        <section class="fruits-container">
-            <h1 id="fruits-title" class="some-class random-class blue-bg">fruits will eat everyday</h1>
-            <ul>
-                <li>apple</li>
-                <li>Banana</li>
-                <li>orange</li>
-            </ul>
-        </section>
-        <section class="housing-container">
-            <h1 id="hosing-title" class="some-class random-class blue-bg">house where we live</h1>
-            <ul>
-                <li>Half-building</li>
-                <li>Full-building</li>
-                <li>Tin er house</li>
-            </ul>
-        </section>
-        <section>
-            <h1 id="sports" class="fav oneof best athletic">sports we watch</h1>
-            <ul>
-                <li class="fav-sports">football</li>
-                <li class="fav-sports">cricket</li>
-                <li class="fav-sports">volleyball</li>
-            </ul>
-        </section>
-
+      
     </main>
-    <footer>
 
-    </footer>
-    <script src="js/dom.js"></script>
-    <script src="js/append.js"></script>
-    <script src="js/styleInJs.js"></script>
-    <script>
-
-        // option-1
-
-        const liCollection = document.getElementsByTagName('li')
-        //    console.log(liCollection)
-        for (const li of liCollection) {
-            // console.log(li.innerText)
-        }
-
-        const allHeadings = document.getElementsByTagName('h1')
-        for (const h1 of allHeadings) {
-            // console.log(h1.innerText)
-        }
-        // option-2:
-
-        const places = document.getElementById('places-title')
-        // console.log(places)
-        // console.log(places.innerText)
-
-        // title changes
-        const fruitsTitle = document.getElementById('fruits-title')
-        // fruitsTitle.innerText='Fruits changed by JavaScript';
-
-        // option-3:
-        const favoriteSports = document.getElementsByClassName('fav-sports')
-        // console.log(favoriteSports)
-        for (const sport of favoriteSports) {
-            // console.log(sport.innerText)
-        }
-
-
-        // option-4: 
-
-        const sumOfLi = document.querySelector('.fruits-container li')
-        // console.log(sumOfLi)
-
-        // option-5:
-
-        const someLi = document.querySelectorAll('.fruits-container li')
-        // console.log(someLi)
-        for (const li of someLi) {
-            // console.log(li)
-            // console.log(li.innerText)
-        }
-
-    </script>
 </body>
 
 </html>
