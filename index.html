@@ -67,7 +67,53 @@
     <script src="js/dom.js"></script>
     <script src="js/append.js"></script>
     <script src="js/styleInJs.js"></script>
-   
+    <script>
+
+        // option-1
+
+        const liCollection = document.getElementsByTagName('li')
+        //    console.log(liCollection)
+        for (const li of liCollection) {
+            // console.log(li.innerText)
+        }
+
+        const allHeadings = document.getElementsByTagName('h1')
+        for (const h1 of allHeadings) {
+            // console.log(h1.innerText)
+        }
+        // option-2:
+
+        const places = document.getElementById('places-title')
+        // console.log(places)
+        // console.log(places.innerText)
+
+        // title changes
+        const fruitsTitle = document.getElementById('fruits-title')
+        // fruitsTitle.innerText='Fruits changed by JavaScript';
+
+        // option-3:
+        const favoriteSports = document.getElementsByClassName('fav-sports')
+        // console.log(favoriteSports)
+        for (const sport of favoriteSports) {
+            // console.log(sport.innerText)
+        }
+
+
+        // option-4: 
+
+        const sumOfLi = document.querySelector('.fruits-container li')
+        // console.log(sumOfLi)
+
+        // option-5:
+
+        const someLi = document.querySelectorAll('.fruits-container li')
+        // console.log(someLi)
+        for (const li of someLi) {
+            // console.log(li)
+            // console.log(li.innerText)
+        }
+
+    </script>
 </body>
 
 </html>
